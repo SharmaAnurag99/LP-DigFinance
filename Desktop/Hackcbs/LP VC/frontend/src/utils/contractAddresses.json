@@ -1,0 +1,6 @@
+{
+  "mockUSDC": "0x25E733Ca4601ffBab902765D5504c97bBAAc87C5",
+  "fundFactory": "0xfC53351ff4b5a96653195822a95cA7677FBb3DDE",
+  "network": "sepolia",
+  "chainId": "11155111"
+}

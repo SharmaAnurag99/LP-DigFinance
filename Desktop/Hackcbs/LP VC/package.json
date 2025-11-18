@@ -1,0 +1,42 @@
+{
+  "name": "vc-fund-dapp",
+  "version": "1.0.0",
+  "description": "VC Fund Management DApp for Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:verbose": "hardhat test --verbose",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat run scripts/deploy.js",
+    "setup:demo": "hardhat run scripts/setup-demo.js",
+    "test:flow": "hardhat run scripts/test-flow.js",
+    "verify:connection": "hardhat run scripts/verify-connection.js",
+    "verify:setup": "hardhat run scripts/verify-setup.js",
+    "deploy:sepolia": "hardhat run scripts/deploy-testnet.js --network sepolia",
+    "deploy:goerli": "hardhat run scripts/deploy-testnet.js --network goerli",
+    "setup:testnet:sepolia": "hardhat run scripts/setup-testnet-demo.js --network sepolia",
+    "setup:testnet:goerli": "hardhat run scripts/setup-testnet-demo.js --network goerli",
+    "setup:testnet:full:sepolia": "hardhat run scripts/setup-testnet-full.js --network sepolia",
+    "setup:testnet:full:goerli": "hardhat run scripts/setup-testnet-full.js --network goerli",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "blockchain",
+    "vc",
+    "fund",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^17.2.3"
+  }
+}
