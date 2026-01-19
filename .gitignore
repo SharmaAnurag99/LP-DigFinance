@@ -1,0 +1,8 @@
+# Ignore everything by default
+*
+
+# But don't ignore the LP VC project
+!Desktop/Hackcbs/LP VC/
+
+# Don't ignore .gitignore itself
+!.gitignore
